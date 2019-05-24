@@ -1,63 +1,29 @@
-. {
+.{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    background-image: url(fishnets-andhearts.png);
-    background-size:cover;
-    background-position: center center;
-    height: 100vh;
-}
-
-
 
 .image {
     width: 300px;
     height: auto;
 }
 
-
-ul.a {
-    list-style-type: About;
-  }
-  
-  ul.b {
-    list-style-type: Portfolio;
-  }
-  
-  ol.c {
-    list-style-type: Contact;
-  }
-
-li {
-    display: inline;
-  }
-
-.image {
-    <background-image:url("assets/images/fishnets-and-hearts.png");
-}
-
-
-li {
-    display: inline; About;
-  }
-
-    div {
-        width: 500px;
-        border: 60px;
-        padding: 60px;
-        margin: 50px;
-      }
-
 nav{
     position: relative;
     padding:20px 20px 20px 20px;
     text-align: right;
     z-index: 0;
-    margin: 0 auto;
+    margin: 1 auto;
     width:calc (100% - 50px)
+}
+
+p{
+    position: relative;
+    width: 500px;
+    border: 60px;
+    padding: 60px;
+    margin: 60px;
 }
 
 h1 {
@@ -66,10 +32,6 @@ h1 {
 
 h2 {
     background-color: blueviolet
-}
-p.solid {
-    border-style: solid;
-    border-width: 5px
 }
 
 
