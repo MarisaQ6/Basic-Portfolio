@@ -3,9 +3,25 @@
     height: auto;
 }
 
-body {
-    <background-image: assets/images src="\images\fishnets-and-hearts.png">
+ul.a {
+    list-style-type: About;
   }
+  
+  ul.b {
+    list-style-type: Portfolio;
+  }
+  
+  ol.c {
+    list-style-type: Contact;
+  }
+
+li {
+    display: inline;
+  }
+
+.image {
+    <background-image:url("assets/images/fishnets-and-hearts.png");
+}
 
 
 li {
